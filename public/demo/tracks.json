@@ -1,0 +1,34 @@
+[
+  {
+    "id": "see-you-again",
+    "title": "See You Again",
+    "artist": "Wiz Khalifa feat. Charlie Puth",
+    "fileName": "see-you-again-full.mp3",
+    "url": "/demo/see-you-again-full.mp3",
+    "audioBytes": 9239467,
+    "audioSha256": "941d1cf77fda45521f453972c38f51a3288a022402902d925689465d754d5a78",
+    "melodyUrl": "/demo/see-you-again-melody.json",
+    "backingUrl": "/demo/see-you-again-backing.m4a",
+    "bpm": 80,
+    "sourceUrl": "https://music.apple.com/us/album/see-you-again-feat-charlie-puth/966411595?i=966411602",
+    "sourceLabel": "本地完整版 · 仅限个人实验",
+    "preview": false,
+    "version": "full-mp3-v9-game103-melody-3106b422-tempo80"
+  },
+  {
+    "id": "xiao-mei-man",
+    "title": "小美满",
+    "artist": "周深",
+    "fileName": "xiao-mei-man-full.mp3",
+    "url": "/demo/xiao-mei-man-full.mp3",
+    "audioBytes": 8962528,
+    "audioSha256": "417b17b693d6ed8f266484d29e48d8988659c59d3c6607c8c635226cc4fe8348",
+    "melodyUrl": "/demo/xiao-mei-man-melody.json",
+    "backingUrl": "/demo/xiao-mei-man-backing.m4a",
+    "bpm": 76,
+    "sourceUrl": "https://music.apple.com/tw/song/1733140195",
+    "sourceLabel": "本地完整版 · 仅限个人实验",
+    "preview": false,
+    "version": "full-mp3-v8-game103-melody-c077b861-tempo76"
+  }
+]

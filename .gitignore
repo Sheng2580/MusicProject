@@ -1,0 +1,22 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.cache/
+
+*.tsbuildinfo
+*.log
+.DS_Store
+
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+.venv*/
+.score-venv/
+
+.env
+.env.*
+!.env.example
+
+# pnpm is the canonical package manager for this project.
+package-lock.json
