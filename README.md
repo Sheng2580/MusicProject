@@ -60,14 +60,3 @@ pnpm preview   # 本地预览生产构建
 项目另有独立的 [MIDI / MusicXML 对照脚本](scripts/README-score-tools.md)，只供开发和测试自动转录准确性。它可以列出谱中的 part、voice 和 staff，从指定主旋律声部生成 oracle JSON，并与纯音频输出比较错音、八度错误、覆盖率和起音偏差。该脚本不属于玩家流程，页面也不提供琴谱导入入口。
 
 开发时可用 [GAME ONNX 转录脚本](scripts/README-game-transcription.md) 从同一份音频重建内置逐音 JSON，并用 [MIDI / MusicXML 对照脚本](scripts/README-score-tools.md) 量化检查起音与音高。旧的 [人声旋律精修脚本](scripts/README-audio-melody.md) 仍保留用于历史结果复核，不属于玩家导入流程。
-
-## 曲目与保存
-
-在其他电脑上重建曲库时，请使用自己合法持有的普通音频文件并从曲库导入。可购买下载的正规入口包括 [Qobuz 的 See You Again](https://www.qobuz.com/us-en/album/see-you-again-feat-charlie-puth-wiz-khalifa/0075679927750) 和 [Qobuz 的《小美满》](https://www.qobuz.com/us-en/album/-/anirr279ll4pc)；购买与地区可用性以网站为准。本项目不会自动购买、抓取或解密受保护音频。
-
-将本地 MP3 文件拖入页面，或使用导入按钮添加歌曲。应用在浏览器内转录逐音主旋律，并估算节拍和大、小三和弦；纯音频的自动结果仍可能受复音编曲、混响和弱人声影响，需要以测试琴谱持续回归验证，也不是原曲吉他六线谱。
-
-
-音频、封面信息、分析结果和校正记录保存在当前浏览器、当前地址的 IndexedDB 中。保持使用同一浏览器与 `http://127.0.0.1:5173`，刷新或重新打开后可继续使用；切换浏览器、端口或 `localhost` 地址会进入另一份存储。清除网站数据或使用隐私模式可能使保存内容丢失。
-
-和弦校正页可导出分析 JSON，供开发排查或备份；重新生成一首歌时只需保留自己的原始音频文件。
