@@ -63,8 +63,6 @@ pnpm preview   # 本地预览生产构建
 
 ## 曲目与保存
 
-当前本地实验内置 **See You Again — Wiz Khalifa feat. Charlie Puth**（约 3:50）和 **小美满 — 周深**（约 3:34）两首完整 MP3，首次打开或从旧版本升级时会在本机重新分析。文件信息见 [public/demo/SOURCES.md](public/demo/SOURCES.md)。这些音频仅供当前电脑上的个人实验，不应提交到公共仓库或对外分发。
-
 在其他电脑上重建曲库时，请使用自己合法持有的普通音频文件并从曲库导入。可购买下载的正规入口包括 [Qobuz 的 See You Again](https://www.qobuz.com/us-en/album/see-you-again-feat-charlie-puth-wiz-khalifa/0075679927750) 和 [Qobuz 的《小美满》](https://www.qobuz.com/us-en/album/-/anirr279ll4pc)；购买与地区可用性以网站为准。本项目不会自动购买、抓取或解密受保护音频。
 
 将本地 MP3 文件拖入页面，或使用导入按钮添加歌曲。应用在浏览器内转录逐音主旋律，并估算节拍和大、小三和弦；纯音频的自动结果仍可能受复音编曲、混响和弱人声影响，需要以测试琴谱持续回归验证，也不是原曲吉他六线谱。
